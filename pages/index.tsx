@@ -7,7 +7,7 @@ export default function Home() {
         <div className="flex flex-col items-center">
           <div className="flex items-center gap-6 mt-16">
             <span className="text-xl xs:text-2xl">
-              Hey, I'm Nikita{" "}
+              Hey, I&apos;m Nikita{" "}
               <div className="inline-block animate-wave">👋</div>
             </span>
 
@@ -21,7 +21,7 @@ export default function Home() {
           </div>
 
           <div className="mt-10 mx-5">
-            I'm a software engineer passionate about startups.
+            I&apos;m a software engineer passionate about startups.
           </div>
         </div>
 
