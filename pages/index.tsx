@@ -2,6 +2,7 @@ import Image from "next/image";
 import { BsGithub, BsLinkedin } from "react-icons/bs";
 import { AiOutlineMail } from "react-icons/ai";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 const childVariants = {
   hidden: { opacity: 0, y: 20 },
@@ -56,7 +57,7 @@ export default function Home() {
             I&apos;m a software engineer passionate about startups.
           </motion.div>
           <motion.div
-            className="mt-10 flex gap-5 items-center"
+            className="mt-10 flex items-center"
             variants={childVariants}
           >
             <motion.a
@@ -70,6 +71,7 @@ export default function Home() {
                 scale: 0.98,
                 transition: { duration: 0.1 },
               }}
+              className="mr-5"
             >
               <BsGithub size="48" />
             </motion.a>
@@ -84,9 +86,23 @@ export default function Home() {
                 scale: 0.98,
                 transition: { duration: 0.1 },
               }}
+              className="mr-2"
             >
               <BsLinkedin size="48" />
             </motion.a>
+            <motion.div
+              whileHover={{
+                scale: 1.03,
+                transition: { duration: 0.1 },
+              }}
+              whileTap={{
+                scale: 0.98,
+                transition: { duration: 0.1 },
+              }}
+              className="text-5xl mr-1"
+            >
+              <Link href="/resume">📄</Link>
+            </motion.div>
             <motion.a
               href="mailto:nikita@malinovsky.net"
               target="_blank"
