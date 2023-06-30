@@ -1,11 +1,15 @@
 import "@/styles/globals.css";
 import type { AppProps } from "next/app";
 import SeoLayout from "@/components/Layouts/seo";
+import { ChakraProvider } from "@chakra-ui/react";
+import theme from "../theme/styles";
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
-    <SeoLayout>
-      <Component {...pageProps} />
-    </SeoLayout>
+    <ChakraProvider theme={theme}>
+      <SeoLayout>
+        <Component {...pageProps} />
+      </SeoLayout>
+    </ChakraProvider>
   );
 }
