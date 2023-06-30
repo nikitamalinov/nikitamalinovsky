@@ -3,7 +3,7 @@
       
             <url>
               <loc>https://www.nikitamalinovsky.com/</loc>
-              <lastmod>2023-06-29T00:00:00.000Z.</lastmod>
+              <lastmod>2023-06-29T00:00:00.000Z</lastmod>
               <changefreq>monthly</changefreq>
               <priority>1.0</priority>
             </url>
@@ -11,7 +11,7 @@
 
             <url>
               <loc>https://www.nikitamalinovsky.com/resume</loc>
-              <lastmod>2023-06-29T00:00:00.000Z.</lastmod>
+              <lastmod>2023-06-29T00:00:00.000Z</lastmod>
               <changefreq>monthly</changefreq>
               <priority>0.9</priority>
             </url>
