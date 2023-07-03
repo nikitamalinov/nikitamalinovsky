@@ -126,12 +126,9 @@ export default function Home() {
         >
           Projects
         </motion.div>
-        <div className="flex flex-col items-center mx-5">
+        <div className="flex flex-col items-center flex-wrap mx-5 ">
           <motion.div variants={childVariants}>
-            <div className="text-2xl mb-5">
-              Alumni Network for Acalanes High School
-            </div>
-
+            <div className="text-2xl mb-5 ">Alumni Network</div>
             {/* 1.81757402101 */}
             <a href="https://godons.io" target="_blank">
               <div className="relative h-[150px] w-[273px] xs:h-[200px] xs:w-[364px] sm:h-[300px] sm:w-[545px] md:h-[400px] md:w-[727px]">
@@ -159,7 +156,7 @@ export default function Home() {
                   alt="Nikita Malinovsky"
                 />
               </div>
-            </a>{" "}
+            </a>
           </motion.div>
         </div>
       </motion.div>

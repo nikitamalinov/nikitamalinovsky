@@ -9,6 +9,7 @@ export default function SeoLayout({ children }: Props) {
   return (
     <div className="flex flex-col relative">
       <Head>
+        <title>Nikita Malinovsky</title>
         <meta charSet="UTF-8" />
         <meta name="application-name" content="Nikita Malinovsky Website" />
         <meta
