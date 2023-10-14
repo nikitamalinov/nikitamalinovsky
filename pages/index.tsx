@@ -137,11 +137,15 @@ export default function Home() {
             </a>
           </motion.div>
           <motion.div variants={childVariants}>
-            <div className="mt-10 text-2xl mb-5">Vennbury University</div>
-            {/* 1.83015267176 */}
-            <a href="https://vennbury.com" target="_blank">
-              <div className="relative h-[150px] w-[276px] xs:h-[200px] xs:w-[366px]   sm:h-[300px] sm:w-[549px] md:h-[400px] md:w-[732px]">
-                <Image src="/vennbury.png" fill alt="Nikita Malinovsky" />
+            <div className="mt-10 text-2xl mb-5">Los Angeles Scouts</div>
+            {/* 1.83044315992 */}
+            <a href="https://razvedchik.org" target="_blank">
+              <div className="relative h-[150px] w-[276px] xs:h-[200px] xs:w-[366px]  sm:h-[300px] sm:w-[549px] md:h-[400px] md:w-[732px]">
+                <Image
+                  src="/razvedchik-1900x1038.png"
+                  fill
+                  alt="Los Angeles Scouts"
+                />
               </div>
             </a>
           </motion.div>
@@ -153,8 +157,17 @@ export default function Home() {
                 <Image
                   src="/paulgrahamessays.png"
                   fill
-                  alt="Nikita Malinovsky"
+                  alt="Paul Graham's Essays"
                 />
+              </div>
+            </a>
+          </motion.div>
+          <motion.div variants={childVariants}>
+            <div className="mt-10 text-2xl mb-5">Vennbury University</div>
+            {/* 1.83015267176 */}
+            <a href="https://vennbury.com" target="_blank">
+              <div className="relative h-[150px] w-[276px] xs:h-[200px] xs:w-[366px]   sm:h-[300px] sm:w-[549px] md:h-[400px] md:w-[732px]">
+                <Image src="/vennbury.png" fill alt="Vennbury University" />
               </div>
             </a>
           </motion.div>
