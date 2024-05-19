@@ -21,6 +21,9 @@ html {
   width: 100vw;
 }
 
+.highlighted-project {
+  border: 2px solid gold;
+}
 html,
 body {
   max-width: 100vw;
