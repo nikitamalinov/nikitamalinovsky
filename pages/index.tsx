@@ -3,6 +3,7 @@ import { BsGithub, BsLinkedin } from "react-icons/bs";
 import { AiOutlineMail } from "react-icons/ai";
 import { motion } from "framer-motion";
 import Link from "next/link";
+import { AiOutlineStar } from "react-icons/ai";
 
 const childVariants = {
   hidden: { opacity: 0, y: 20 },
@@ -18,6 +19,20 @@ const childVariants = {
 const containerVariants = {
   hidden: { opacity: 0 },
   visible: {
+      <motion.div className="flex flex-col items-center mb-10">
+        <motion.div className="flex items-center gap-6">
+          <span className="text-xl xs:text-2xl">
+            Highlighted Project{" "}
+            <AiOutlineStar className="inline-block text-yellow-500" />
+          </span>
+        </motion.div>
+        <motion.div className="text-2xl mb-5">GitAuto</motion.div>
+        <a href="https://gitauto.ai" target="_blank">
+          <div className="relative h-[150px] w-[273px] xs:h-[200px] xs:w-[364px] sm:h-[300px] sm:w-[545px] md:h-[400px] md:w-[727px]">
+            <Image src="/gitauto.png" fill alt="GitAuto" />
+          </div>
+        </a>
+      </motion.div>
     opacity: 1,
     transition: {
       staggerChildren: 0.1,
