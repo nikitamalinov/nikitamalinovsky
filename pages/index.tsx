@@ -3,7 +3,6 @@ import { BsGithub, BsLinkedin } from "react-icons/bs";
 import { AiOutlineMail } from "react-icons/ai";
 import { motion } from "framer-motion";
 import Link from "next/link";
-import { AiOutlineStar } from "react-icons/ai";
 
 const childVariants = {
   hidden: { opacity: 0, y: 20 },
@@ -19,20 +18,6 @@ const childVariants = {
 const containerVariants = {
   hidden: { opacity: 0 },
   visible: {
-      <motion.div className="flex flex-col items-center mb-10">
-        <motion.div className="flex items-center gap-6">
-          <span className="text-xl xs:text-2xl">
-            Highlighted Project{" "}
-            <AiOutlineStar className="inline-block text-yellow-500" />
-          </span>
-        </motion.div>
-        <motion.div className="text-2xl mb-5">GitAuto</motion.div>
-        <a href="https://gitauto.ai" target="_blank">
-          <div className="relative h-[150px] w-[273px] xs:h-[200px] xs:w-[364px] sm:h-[300px] sm:w-[545px] md:h-[400px] md:w-[727px]">
-            <Image src="/gitauto.png" fill alt="GitAuto" />
-          </div>
-        </a>
-      </motion.div>
     opacity: 1,
     transition: {
       staggerChildren: 0.1,
@@ -143,11 +128,11 @@ export default function Home() {
         </motion.div>
         <div className="flex flex-col items-center flex-wrap mx-5 ">
           <motion.div variants={childVariants}>
-            <div className="text-2xl mb-5 ">Alumni Network</div>
-            {/* 1.81757402101 */}
-            <a href="https://godons.io" target="_blank">
-              <div className="relative h-[150px] w-[273px] xs:h-[200px] xs:w-[364px] sm:h-[300px] sm:w-[545px] md:h-[400px] md:w-[727px]">
-                <Image src="/godons.png" fill alt="Nikita Malinovsky" />
+            <div className="text-2xl mb-5">GitAuto</div>
+            {/* 1.87192118227 */}
+            <a href="https://gitauto.ai" target="_blank">
+              <div className="relative h-[150px] w-[281px] xs:h-[200px] xs:w-[374px]  sm:h-[300px] sm:w-[562px] md:h-[400px] md:w-[749px]">
+                <Image src="/gitauto-1900x1015.png" fill alt="GitAuto AI" />
               </div>
             </a>
           </motion.div>
@@ -183,6 +168,15 @@ export default function Home() {
             <a href="https://vennbury.com" target="_blank">
               <div className="relative h-[150px] w-[276px] xs:h-[200px] xs:w-[366px]   sm:h-[300px] sm:w-[549px] md:h-[400px] md:w-[732px]">
                 <Image src="/vennbury.png" fill alt="Vennbury University" />
+              </div>
+            </a>
+          </motion.div>
+          <motion.div variants={childVariants}>
+            <div className="mt-10 text-2xl mb-5">Alumni Network</div>
+            {/* 1.81757402101 */}
+            <a href="https://godons.io" target="_blank">
+              <div className="relative h-[150px] w-[273px] xs:h-[200px] xs:w-[364px] sm:h-[300px] sm:w-[545px] md:h-[400px] md:w-[727px]">
+                <Image src="/godons.png" fill alt="Nikita Malinovsky" />
               </div>
             </a>
           </motion.div>

@@ -30,7 +30,7 @@ export default function SeoLayout({ children }: Props) {
           property="og:description"
           content="Nikita Malinovsky's personal website."
         />
-        <meta property="og:image" content="/gitauto.png" />
+        <meta property="og:image" content="/nikita.png" />
       </Head>
       {children}
     </div>
