@@ -128,15 +128,6 @@ export default function Home() {
         </motion.div>
         <div className="flex flex-col items-center flex-wrap mx-5 ">
           <motion.div variants={childVariants}>
-            <div className="text-2xl mb-5">GitAuto</div>
-            {/* 1.87192118227 */}
-            <a href="https://gitauto.ai" target="_blank">
-              <div className="relative h-[150px] w-[281px] xs:h-[200px] xs:w-[374px]  sm:h-[300px] sm:w-[562px] md:h-[400px] md:w-[749px]">
-                <Image src="/gitauto-1900x1015.png" fill alt="GitAuto AI" />
-              </div>
-            </a>
-          </motion.div>
-          <motion.div variants={childVariants}>
             <div className="mt-10 text-2xl mb-5">Los Angeles Scouts</div>
             {/* 1.83044315992 */}
             <a href="https://razvedchik.org" target="_blank">
